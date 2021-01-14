@@ -1,5 +1,4 @@
 
-
 article p::first-line{
     color: red;
 }
@@ -47,6 +46,7 @@ h4{
 p.productos::before{
     content: counter(cuenta-productos) " . ";
     counter-increment: cuenta-productos;
+    
 }
 footer{
     font-size: small;
